@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SQ_About</class>
+ <widget class="QWidget" name="SQ_About">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>283</width>
+    <height>214</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SQ_About</string>
+  </property>
+  <widget class="QLabel" name="About">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>131</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 57 14pt &quot;Adobe Myungjo Std M&quot;;</string>
+   </property>
+   <property name="text">
+    <string>2018.7.9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AboutClose">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>About()</slot>
+ </slots>
+</ui>
